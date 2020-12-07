@@ -1,0 +1,66 @@
+*{
+  font-family: montserrat;
+}
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url(./img2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.content {
+  display: grid;
+  place-items: center;
+}
+img {
+  justify-content: center;
+  height: 60vh;
+  width: 100vh;
+  border: white 3px solid;
+}
+input {
+  outline: none;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: white solid 1px none;
+  border-color: rgba(0, 0, 0, 0);
+  transition: all 300ms;
+  color: white;
+  margin: 1vh;
+}
+input:hover {
+  background-color: rgba(255, 255, 255, 0.185);
+  transform: scale(1.1);
+  margin: 2vh;
+}
+input:focus {
+  background-color: rgba(255, 255, 255, 0.185);
+  transform: scale(1.2);
+  margin: 3vh;
+}
+p {
+  color: #fff;
+  text-align: center;
+}
+button{
+  padding: 10px 10px;
+  background: rgba(255, 255, 255, 0.295);
+  outline: none;
+  border: 3px rgb(255, 255, 255) solid;
+  color: rgb(255, 255, 255);
+  transition: all 300ms;
+}
+button:hover{
+  background: rgba(255, 255, 255, 0.925);
+  color: rgba(255, 255, 255, 0.548);
+  color: rgb(5, 5, 5);
+  transform: scale(1.05);
+}
+a{
+  margin: 10px;
+}
