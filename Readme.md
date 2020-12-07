@@ -1,3 +1,6 @@
-*Hey There*
+#  YouTube Thumbnail
+**hey there**
 
-This is just a practice project, all you have to do is copy the thumbnail of the Video from youtube that you want and press the button!
+This is just a simple practice project, all you have to do is copy the link of the Video from Youtube that you want, paste it and  press the button!
+
+*yep thats it...*
